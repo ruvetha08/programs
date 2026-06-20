@@ -6,4 +6,8 @@ class Solution(object):
         tws=2
         for i in range(3,n+1):
             curr=ons+tws
-            return curr
+            ons=tws
+            tws=curr
+        return curr
+
+        
